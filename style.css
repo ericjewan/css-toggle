@@ -1,0 +1,17 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.blur, img {
+  filter: blur(5px);
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

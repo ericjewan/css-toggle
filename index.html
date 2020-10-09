@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>hello world!</title>
+</head>
+<body>
+  <img src="photo.JPEG" alt="photo" class="center">
+  <button>Blur Me</button>
+
+  <div class="blur"></div>
+  
+
+
+
+<script>
+  const photo = document.querySelector('.blur');
+  const button = document.querySelector('button');
+
+  button.addEventListener('click',function(){
+    console.log('Hello Button!');
+
+    photo.classList.toggle("blur");
+
+  });
+
+
+</script>
+</body>
+</html>
